@@ -157,13 +157,14 @@
         </div>
 
     </main>
-    <!-- Animation Source : Java Scripts -->
+
+</body>
+        <!-- Animation Source : Java Scripts -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
-</body>
-
+ 
 <!-- Java Script used in the page -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
@@ -195,27 +196,39 @@
     }
 
     // Navigation bar collapse(Yash Sharma)
-    $(document).ready(function(){
-        $('.toggle-collapse').click(function(){
+    $(document).ready(function () {
+        $('.toggle-collapse').click(function () {
             $('.navbar-collapse').toggleClass("collapse");
         })
-        
-    // back to page-top on reload(Tanmay Shah)
-    document.body.style.display = "none";
-    // If onbeforeunload fails
-    window.onload = function () {
-        window.setTimeout(
-            function () {
-                window.scrollTo(0, 0);
-                document.body.style.display = "inherit";
-            },
-            10
-        );
-    };
-    /* This should scroll the page to the top before the page refreshes */
-    window.onbeforeunload = function () { window.scrollTo(0, 0); }
+    })
 
-})
+    // // back to page-top on reload(Tanmay Shah)
+    // document.body.style.display = "none";
+    // // If onbeforeunload fails
+    // window.onload = function () {
+    //     window.setTimeout(
+    //         function () {
+    //             window.scrollTo(0, 0);
+    //             document.body.style.display = "inherit";
+    //         },
+    //         10
+    //     );
+    // };
+    // /* This should scroll the page to the top before the page refreshes */
+    // window.onbeforeunload = function () { window.scrollTo(0, 0); }
+
+    // back to page-top on reload(Tanmay Shah)
+    window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+    }
+    // remove fragment as much as it can go without adding an entry in browser history:
+    window.location.replace("#");
+
+    // slice off the remaining '#' in HTML5:    
+    if (typeof window.history.replaceState == 'function') {
+        history.replaceState({}, '', window.location.href.slice(0, -1));
+    }
+
 
 
 </script>
