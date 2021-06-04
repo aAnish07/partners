@@ -1,4 +1,4 @@
-/*==================================== yash ===================================*/
+/*==================================== Yash ===================================*/
 *{
     margin:0;
     padding:0;
@@ -14,7 +14,7 @@
     margin-right: 2rem;
     margin-top: 0.5rem;
     background-color: transparent;
-    border-radius: 3px;
+    border: none;
     color: rgb(255, 246, 246);
     font-size: 1rem;
     cursor: pointer;
@@ -44,7 +44,7 @@ position: fixed;
 width: 100vw;
 top: 0;
 z-index: 999;
-padding-top: 0.3rem;
+padding: 0.5rem 0;
 }
 
 /* Style the navbar links */
@@ -112,12 +112,13 @@ word-spacing: 1rem;
         width: 4.8rem;
         margin-right: -2rem;
         margin-top: 2rem;
+        padding: 5px auto;
     }
     
 }
 
 
-/* ====================tanmay====================== */
+/* ====================Tanmay====================== */
 .bg-img {
     position: absolute;
     left: 0;
@@ -211,7 +212,7 @@ word-spacing: 1rem;
 
 .scrolldown{
     position: absolute;
-    top: 55vh;
+    top: 47vh;
     left: 50%;
     width: 40px;
     height: 40px;
@@ -272,7 +273,7 @@ word-spacing: 1rem;
 }
 .scrolldown-2{
     position: absolute;
-    top: 58vh;
+    top: 50vh;
     left: 50%;
     width: 40px;
     height: 40px;
