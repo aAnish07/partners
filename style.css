@@ -399,9 +399,8 @@ footer img {
     margin-bottom: 0px;
 }
 
-p {
-    font-size: 1.5 rem;
-    letter-spacing: 1.5px;
+footer p {
+    letter-spacing: 2px;
     margin-top: 25px; 
 }
 
