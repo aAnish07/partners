@@ -58,7 +58,7 @@ transition: 0.3s ease-in;
 /* Style the logo */
 #logo {
     float: left;
-    padding-left: 0.8rem;
+    padding-left: 2.5rem;
     transition: 0.3s;
 }
 
@@ -71,7 +71,7 @@ transition: 0.3s ease-in;
 /* Display some links to the right */
 #navbar-right {
 float: right;
-padding-right: 1.5rem;
+padding-right: 2.5rem;
 padding-top: 0.5rem;
 word-spacing: 1rem;
 }
@@ -92,6 +92,7 @@ word-spacing: 1rem;
         color: rgb(255, 255, 255);
         text-decoration: solid;
         font-size: 0.7rem;
+        font-weight: 900;
         transition: 0.3s ease-in;
         }
 
