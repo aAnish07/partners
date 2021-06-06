@@ -154,7 +154,7 @@ word-spacing: 1rem;
     color: rgb(255, 255, 255);
     font-size: 65px;
     font-weight: 900;
-    letter-spacing: 6px;
+    letter-spacing: 3px;
     margin-bottom: 20px;
     position: relative;
     animation: text1 2s 1;
@@ -184,7 +184,7 @@ word-spacing: 1rem;
         margin-bottom: -40px;
     }
     85%{
-        latter-spacing: 6px;
+        latter-spacing: 3px;
         margin-bottom: -40px;
     }
 }
