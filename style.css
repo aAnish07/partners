@@ -2,7 +2,6 @@
 *{
     margin:0;
     padding:0;
-    font-family: 'Ubuntu', sans-serif;
 }
 
 /* toggle */
@@ -45,6 +44,7 @@ width: 100vw;
 top: 0;
 z-index: 999;
 padding: 0.5rem 0;
+font-family: 'Times New Roman', Times, serif;
 }
 
 /* Style the navbar links */
