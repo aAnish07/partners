@@ -120,7 +120,7 @@ word-spacing: 1rem;
 }
 
 
-/* ====================Tanmay====================== */
+/* =====================================================Tanmay======================================================== */
 .bg-img {
     position: absolute;
     left: 0;
@@ -166,7 +166,7 @@ word-spacing: 1rem;
 
 .text2{
     font-size: 18px;
-    color: rgb(231, 231, 231);
+    color: rgb(250, 250, 250);
     animation: text2 2s 1;
     font-weight: 800;
     animation-delay: 1.5s;
