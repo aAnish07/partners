@@ -338,7 +338,7 @@ body {
 }
 
 main {
-    padding: 100px 0px;
+    padding: 50px 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -372,7 +372,7 @@ main {
     }
 }
 
-.scard:hover {
+.scard:hover, .scard:active {
     transform: translateY(-8px) !important;
     transform: scale(1.02) !important;
     box-shadow: 0px 5px 10px grey;
@@ -431,22 +431,22 @@ svg:hover {
     cursor: pointer;
 }
 
-.fb:hover {
+.fb:hover, .fb:active {
     color:#0A82ED;
 }
 
-.ig:hover {
+.ig:hover, .ig:active {
     color: #CA2D8B;
 }
 
-.li:hover {
+.li:hover, .li:active {
     color: #0A66C2;
 }
 
-.yt:hover {
+.yt:hover, .yt:active {
     color: #FF0000;
 }
 
-.tw:hover {
+.tw:hover, .tw:active {
     color: #1DA1F2;
 }
