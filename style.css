@@ -353,6 +353,10 @@ main {
     background-color: #EDF0F2;
 }
 
+.slogo {
+    max-width: 300px;
+}
+
 .scard {
     border: 1px solid whitesmoke;
     background-color: white;
